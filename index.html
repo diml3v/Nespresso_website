@@ -5,14 +5,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="En rolig produktpræsentation af Nespresso Volluto Decaffeinato med smagsprofil og bryggeguide.">
   <meta name="robots" content="index, follow">
-  <!-- Midlertidige Open Graph-URL'er; udskift dem, hvis hjemmesiden publiceres. -->
+  <!-- Open Graph-URL'er for den offentlige hjemmeside. -->
   <meta property="og:title" content="Volluto Decaffeinato | Forside">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://example.com/volluto-decaffeinato/">
-  <meta property="og:image" content="https://example.com/volluto-decaffeinato/assets/images/volluto-decaffeinato.png">
+  <meta property="og:url" content="http://nespresso.dimalevchenko.dk/index.html">
+  <meta property="og:image" content="http://nespresso.dimalevchenko.dk/assets/images/volluto-decaffeinato.png">
   <meta property="og:description" content="En rolig produktpræsentation af Nespresso Volluto Decaffeinato med smagsprofil og bryggeguide.">
   <meta property="og:locale" content="da_DK">
   <meta property="og:image:alt" content="Volluto Decaffeinato-kaffekapsel">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.nespresso.com/dk/da#organization",
+          "name": "Nespresso",
+          "url": "https://www.nespresso.com/dk/da"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "http://nespresso.dimalevchenko.dk/#website",
+          "name": "Volluto Decaffeinato",
+          "url": "http://nespresso.dimalevchenko.dk/",
+          "inLanguage": "da-DK",
+          "about": {
+            "@id": "https://www.nespresso.com/dk/da#organization"
+          }
+        },
+        {
+          "@type": [
+            "WebPage",
+            "FAQPage"
+          ],
+          "@id": "http://nespresso.dimalevchenko.dk/index.html#webpage",
+          "name": "Volluto Decaffeinato | Forside",
+          "description": "En rolig produktpræsentation af Nespresso Volluto Decaffeinato med smagsprofil og bryggeguide.",
+          "url": "http://nespresso.dimalevchenko.dk/index.html",
+          "inLanguage": "da-DK",
+          "isPartOf": {
+            "@id": "http://nespresso.dimalevchenko.dk/#website"
+          },
+          "about": {
+            "@id": "https://www.nespresso.com/dk/da#organization"
+          },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hvad er Volluto Decaffeinato?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Volluto Decaffeinato er en koffeinfri kaffekapsel til Nespresso Original-maskiner. Den har intensitet 4 ud af 12 og brygges som en espresso på 40 ml."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hvordan smager Volluto Decaffeinato?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kaffen har en mild og afrundet smagsprofil med søde kiksnoter, let frugtighed og en mild kornkarakter."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hvilken maskine og kopstørrelse passer kapslen til?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kapslen er beregnet til en Nespresso Original-maskine og anbefales brygget som Espresso, 40 ml."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hvem passer kaffen til?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Den passer til personer, der foretrækker en mild og balanceret espresso eller ønsker et koffeinfrit alternativ."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  </script>
   <title>Volluto Decaffeinato | Forside</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -64,6 +138,16 @@
           <h2 id="taste-title">Sød, let og afrundet</h2>
           <p>Volluto Decaffeinato har en mild profil, hvor søde kiksnoter møder en let frugtighed. Den afrundede karakter gør kaffen enkel at nyde, både sort og med en lille smule mælk.</p>
         </div>
+      </div>
+    </section>
+
+    <section class="section container" aria-labelledby="faq-title">
+      <div class="section-heading"><p class="eyebrow">Kort og præcist</p><h2 id="faq-title">Ofte stillede spørgsmål</h2></div>
+      <div class="card-grid faq-grid">
+        <article class="card faq-card"><h3>Hvad er Volluto Decaffeinato?</h3><p>Volluto Decaffeinato er en koffeinfri kaffekapsel til Nespresso Original-maskiner. Den har intensitet 4 ud af 12 og brygges som en espresso på 40 ml.</p></article>
+        <article class="card faq-card"><h3>Hvordan smager Volluto Decaffeinato?</h3><p>Kaffen har en mild og afrundet smagsprofil med søde kiksnoter, let frugtighed og en mild kornkarakter.</p></article>
+        <article class="card faq-card"><h3>Hvilken maskine og kopstørrelse passer kapslen til?</h3><p>Kapslen er beregnet til en Nespresso Original-maskine og anbefales brygget som Espresso, 40 ml.</p></article>
+        <article class="card faq-card"><h3>Hvem passer kaffen til?</h3><p>Den passer til personer, der foretrækker en mild og balanceret espresso eller ønsker et koffeinfrit alternativ.</p></article>
       </div>
     </section>
 
